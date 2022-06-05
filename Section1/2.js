@@ -1,3 +1,4 @@
+// 삼각형이 만들어지는가?
 function solution(a, b, c) {
   const maxNum = Math.max(a, b, c);
   const total = a + b + c;
