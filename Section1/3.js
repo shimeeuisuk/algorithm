@@ -1,3 +1,4 @@
+//n명의 학생들에게 연필 1개씩 나눠줄 때 필요한 연필 다스단위 갯수?
 function solution(n) {
   let das = n / 12;
   if (n % 12 !== 0) {

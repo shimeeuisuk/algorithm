@@ -1,3 +1,5 @@
+//최솟값찾기
+
 // function solution(arr) {
 //   let answer = arr[0];
 //   for (let i = 0; i < arr.length; i++) {

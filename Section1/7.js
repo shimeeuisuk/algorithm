@@ -1,3 +1,5 @@
+//10부제 : 나갈 수 있는 자동차 수
+
 // function solution(day, arr) {
 //   let count = 0;
 //   for (let i = 0; i < arr.length; i++) {
