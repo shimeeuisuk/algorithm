@@ -8,8 +8,10 @@ function solution(arr) {
   function DFS(L, sum) {
     if (flag) return;
     if (L === n) {
-      if (total - sum === sum) answer = "Yes";
-      flag = 1;
+      if (total - sum === sum) {
+        answer = "Yes";
+        flag = 1;
+      }
     } else {
       DFS(L + 1, sum + arr[L]);
       DFS(L + 1, sum);
